@@ -52,5 +52,11 @@ I get a good impression, I carry out my project with all the possible quality an
 footer__social
 https://www.instagram.com/mr.devtayade
 
+about__Swapnil
 
+Years 1 experience 1st year of engineering 
+
+Completed <2> C program course 
+
+Companies <3> working MNC
 
