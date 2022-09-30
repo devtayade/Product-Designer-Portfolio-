@@ -176,7 +176,42 @@ img {
 
 
 /*==================== SKILLS ====================*/
-
+.html {
+    width: 90%;
+    background-color:rgb(247, 247, 115);
+}
+.css {
+    width: 80%;
+    background-color: #e7e7e7;
+}
+.js {
+    width: 35%; 
+    background-color: #f59089;
+}
+.php {
+    width: 20%;
+    background-color: #808080;
+}
+.c {
+    width: 80%;
+    background-color: palegreen;
+}
+.JAVA{
+    width: 95%;
+    background-color: #7bbdff;
+}
+.PYTHON{
+    width: 80%;
+    background-color: rgb(252, 164, 255);
+}
+.plus {
+    width: 70%;
+    background-color:rgb(186, 235, 106);
+}
+.sql {
+    width: 60%;
+    background-color: rgb(238, 153, 114):
+}
 
 /*==================== QUALIFICATION ====================*/
 
