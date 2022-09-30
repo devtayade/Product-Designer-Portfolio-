@@ -1,5 +1,5 @@
 ## Hello, I am Devendra Tayade 
-### I am Product budding product designer and i design impactful digital solutions for users. I Want your help! 
+### I am budding product designer and i design impactful digital solutions for users. I Want your help! 
 
 How to contribute ?? 
 
