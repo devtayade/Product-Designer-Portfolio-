@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(206, 196, 196);
+}
+
+header{
+    font-size: 20px;
+    font-family: Lucida Sans;
+    padding-left: 50px;
+}
+#heading{
+    font-size: 25px;
+    font-family: Rockwell;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+#about{
+    padding: 30px;
+    align-items: center;
+    font-size: 20px;
+    font-family: Rockwell;
+    margin: 20px;
+    background-color: rgb(130, 128, 124);
+    text-align: justify;
+    border-radius: 20px;
+}
+#skills{
+    font-family: Rockwell;
+    font-size: 30px;
+    font-family: Franklin Gothic Medium;
+    padding-left: 10px;
+    padding-right: 30px;
+
+}
+p{
+    font-size: 20px;
+}
+.container{
+    font-size: 15px;
+}
