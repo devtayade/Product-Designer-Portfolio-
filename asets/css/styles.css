@@ -3,6 +3,7 @@ body{
 }
 
 header{
+    text-align: right;
     font-size: 20px;
     font-family: Lucida Sans;
     padding-left: 50px;
