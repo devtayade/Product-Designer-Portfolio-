@@ -11,7 +11,7 @@
         <link rel="stylesheet" href=""example.css"">
         
         <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="asets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
 
         <title>Responsive Portfolio Website</title>
     </head>
@@ -115,9 +115,19 @@ Technologies I work with : Android, Java, Flutter, databases, kotlin, google clo
             </section>
 
             <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
-
-            </section>
+            <div class="contact-me">
+                <h1 class="contact1">Contact Me</h1>
+                <section class="contact section" id="contact">
+                    <form action="https://formsubmit.co/sharmasahil2468@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="New Query Arrived">
+                        <input name="name" type="text" class="feedback-input" placeholder="Name" required/>
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/thankyou.html">
+                        <input name="email" type="text" class="feedback-input" placeholder="Email" required />
+                        <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+                        <input type="submit" value="SUBMIT"/>
+                      </form>
+                </section>
+            </div>
         </main>
 
         <!--==================== FOOTER ====================-->
