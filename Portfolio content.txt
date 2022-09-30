@@ -1,0 +1,56 @@
+* HOME
+home__social
+https://www.linkedin.com/in/devtayade/
+https://dribbble.com/devtayade
+https://github.com/devtayade
+https://www.behance.net/devendratayade
+
+home__description
+'I am designer, who codes'
+
+
+* ABOUT
+about__description
+Hello, Am Devendra
+
+ I speak code and My Blood Group is C++. I fell in love with computers when I first pressed a key on the keyboard in 2016. 
+- Seeking a fresher role to enhance and explore my technical knowledge also gaining at Savitribai Phule Pune University and I am persuing a B.E degree from BSIOTR, pune.
+- I am working and learning on multiple android/ios Projects and Apps involving C++, C# and Java. although am from Electronics and telecommunication engineering branch !! 
+i am very passionate about Application design & development and databases also open source contributions. 
+- exploring expertise in full implementation of various projects including UI/UX, Development and testing.
+
+Technologies I work with : Android, Java, Flutter, databases, kotlin, google cloud, firebase, networks
+
+
+about__info-name
+Years <1> experience in Product design
+Completed <2> project
+Companies <3> worked
+
+
+* SERVICES
+services__modal-service
+
+I Design impactful digital products 
+
+
+* PORTFOLIO
+portfolio__description
+Website adaptable to all devices, with ui components and animated interactions.
+
+
+* PROJECT
+project__description
+Do you have any project to discuss about ? Connect me now 
+
+* TESTIMONIAL
+testimonial__description
+I get a good impression, I carry out my project with all the possible quality and attention and support 24 hours a day.
+
+
+* FOOTER
+footer__social
+https://www.instagram.com/mr.devtayade
+
+
+
