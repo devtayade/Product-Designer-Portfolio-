@@ -87,6 +87,8 @@
 
 html {
   scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -158,6 +160,14 @@ img {
   z-index: var(--z-fixed);
   background-color: rgb(74, 221, 241);
   box-shadow: 10px black;
+}
+
+#heading{
+  font-size: 25px;
+  font-family: Rockwell;
+  padding-left: 50px;
+  padding-right: 30px;
+  text-align: center;
 }
 
 /*==================== NAV ====================*/
@@ -258,7 +268,7 @@ img {
 }
 .sql {
     width: 60%;
-    background-color: rgb(238, 153, 114):
+    background-color: rgb(238, 153, 114);
 }
 
 /*==================== QUALIFICATION ====================*/
@@ -281,8 +291,176 @@ img {
 
 /*==================== CONTACT ME ====================*/
 
+form { max-width:420px; margin:50px auto; }
+
+.contact-me {
+  background: rgb(30,30,40);
+  border-radius: 1;
+  line-height: 22px;
+  transition: all 0.3s;
+  padding: 16px;
+  margin-bottom: -10px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 15px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 100px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+.contact1 {
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding-top: 1%;
+  outline: 0;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
 
 /*==================== FOOTER ====================*/
+.footer-container {
+  margin-bottom: -50px;;
+  padding:0;
+  background-color: #ded2d2;
+  background-image: linear-gradient(to right bottom,rgba(128, 128, 128, 0.299),rgba(255, 0, 0, 0.222)),url("https://t3.ftcdn.net/jpg/02/91/65/70/360_F_291657078_Qicf1iAn8AcuvlC9juR8QJvGmiQj69gM.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+
+footer ul {
+  position:relative;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 0;
+  display:flex;
+  justify-content: center;
+  align-items: center ;
+}
+
+footer ul li {
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+footer ul li a {
+
+  position: relative;
+  width:50px;
+  height:50px;
+  display:block;
+  text-align:center;
+  margin:0 10px;
+  border-radius: 50%;
+  padding: 6px;
+  box-sizing: border-box;
+  text-decoration:none;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+  background: linear-gradient(0deg, #ddd, #fff);
+  transition: all .3s linear;
+}
+
+footer ul li a:hover {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  transform: scale(1.1);
+  text-decoration:none;
+}
+
+footer ul li a .fab {
+  width: 100%;
+  height:100%;
+  display:block;
+  background: linear-gradient(0deg, #fff, #ddd);
+  border-radius: 50%;
+  line-height: calc(50px - 12px);
+  font-size:24px;
+  color: #262626;
+  transition: .5s;
+}
+
+footer ul li:nth-child(1) a:hover .fab {
+  color: blue;
+}
+
+footer ul li:nth-child(2) a:hover .fab {
+  color: indigo;
+}
+
+footer ul li:nth-child(3) a:hover .fab {
+  color: #3f729b;
+}
+
+footer ul li:nth-child(4) a:hover .fab {
+  color: green;
+}
+
+footer ul li:nth-child(5) a:hover .fab {
+  color: #053eff;
+}
+
+footer img{
+  height: 22px;
+  width: 22px;
+}
+
+.copyright
+{
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    margin: 20px 0 0 0;
+}
 
 
 /*========== SCROLL UP ==========*/

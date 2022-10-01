@@ -6,6 +6,8 @@
 
         <!--==================== UNICONS ====================-->
         
+        <!--==================== FONT AWESOME ICONS CDN ====================-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
         
         <!--==================== SWIPER CSS ====================-->
         <link rel="stylesheet" href="assets\css\swiper-bundle.min.css">
@@ -15,15 +17,18 @@
         <link rel="stylesheet" href=""example.css"">
         
         <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="asets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+
 
 
         <title>Responsive Portfolio Website</title>
     </head>
     <body>
+    <section id="header">
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
             
+
             <a href="https://www.linkedin.com/in/devtayade/">LinkedIn</a>&nbsp;&nbsp;
             <a href="https://dribbble.com/devtayade">Dribble</a>&nbsp;&nbsp;
             <a href="https://github.com/devtayade">Github</a>&nbsp;&nbsp;
@@ -50,12 +55,17 @@
             </ul>
           </nav>
 
+
+        </header>
+    </section>
+    <section id="heading">
+
         <!--==================== MAIN ====================-->
         <main class="main">
-            <h1>'I am designer, who codes' </h1>
-            <section class="home section" id="home">
+            <h1>I am designer, who codes! </h1>
+            
                 
-            </section>
+    </section>
 
             <!--==================== ABOUT ====================-->
             <section class="about section" id="about">
@@ -74,7 +84,7 @@ Technologies I work with : Android, Java, Flutter, databases, kotlin, google clo
             <!--==================== SKILLS ====================-->
             <section class="skills section" id="skills">
 
-                   <h1 class="heading"> <span>Skills</span> </h1>
+                   <h1 class="heading" id="skills"> <span>SKILLS:</span> </h1>
 
                    <p>HTML</p>
                             <div class="container">
@@ -120,6 +130,11 @@ Technologies I work with : Android, Java, Flutter, databases, kotlin, google clo
 
             </section>
 
+            <p>BE</p>
+                   <div class="qualification section" >
+                       <div class="TE">80%</div>
+                   </div> 
+
             <!--==================== SERVICES ====================-->
             <section class="services section" id="services">
                 <h1>Services</h1>
@@ -146,14 +161,33 @@ Technologies I work with : Android, Java, Flutter, databases, kotlin, google clo
             </section>
 
             <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
-
-            </section>
+            <div class="contact-me">
+                <h1 class="contact1">Contact Me</h1>
+                <section class="contact section" id="contact">
+                    <form action="https://formsubmit.co/sharmasahil2468@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="New Query Arrived">
+                        <input name="name" type="text" class="feedback-input" placeholder="Name" required/>
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/thankyou.html">
+                        <input name="email" type="text" class="feedback-input" placeholder="Email" required />
+                        <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+                        <input type="submit" value="SUBMIT"/>
+                      </form>
+                </section>
+            </div>
         </main>
 
         <!--==================== FOOTER ====================-->
-        <footer class="footer">
-         
+        <footer>
+            <div class="footer-container">
+                <ul>
+                    <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fab fa-dribbble" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fab fa-behance" aria-hidden="true"></i></a></li>
+                </ul>
+                <h2 class="copyright">Made with <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/animated-noto-color-emoji/344/red-heart_2764-fe0f.gif"> by <span class="team-name">Devendra</span></h2>
+            </div>
         </footer>
         
         <!--==================== SCROLL TOP ====================-->
