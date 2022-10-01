@@ -12,5 +12,7 @@ Live site https://devtayade.github.io/Product-Designer-Portfolio-/
 
 Example site you can see for design: 
 https://codepen.io/
+
 https://gmacchione.com/about/
+
 https://www.ceros.com/
