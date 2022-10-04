@@ -95,7 +95,7 @@ body {
   margin: 0 0 var(--header-height) 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background: rgb(173, 165, 180);
+  background:white;
 }
 
 h1, h2, h3, h4 {
@@ -294,15 +294,20 @@ img {
 form { max-width:420px; margin:50px auto; }
 
 .contact-me {
-  background: rgb(30,30,40);
-  border-radius: 1;
+  background: white ;
+ 
+  border: 2px solid darkgrey;
   line-height: 22px;
   transition: all 0.3s;
   padding: 16px;
   margin-bottom: -10px;
-  width:100%;
+  width:35%;
+  align-items: center;
+  margin-left: 33%;
+  border-radius: 10px ;
   box-sizing: border-box;
-  outline:0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
@@ -315,8 +320,9 @@ form { max-width:420px; margin:50px auto; }
   font-size: 18px;
   border-radius: 15px;
   line-height: 22px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   background-color: transparent;
-  border:2px solid #CC6666;
+  border:2px solid #E0115F;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -328,8 +334,11 @@ form { max-width:420px; margin:50px auto; }
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
 }
+.feedback-input:hover{
+  background-color: #F25278;
+}
 
-.feedback-input:focus { border:2px solid #CC4949; }
+.feedback-input:focus { border:2px solid #E0115F; }
 
 textarea {
   height: 100px;
@@ -338,7 +347,7 @@ textarea {
 }
 
 .contact1 {
-  color: white;
+  color: #E0115F;
   width: 100%;
   text-align: center;
   padding-top: 1%;
@@ -347,8 +356,11 @@ textarea {
 
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  width: 100%;
-  background:#CC6666;
+  width: 30%;
+  align-items: center;
+  position: relative;
+  margin-left: 35%;
+  background:#E0115F;
   border-radius:5px;
   border:0;
   cursor:pointer;
@@ -360,7 +372,10 @@ textarea {
   margin-top:-4px;
   font-weight:700;
 }
-[type="submit"]:hover { background:#CC4949; }
+[type="submit"]:hover { background:#7bbdff;
+  width:40%;
+  margin-left: 30%;
+ }
 
 /*==================== FOOTER ====================*/
 .footer-container {
