@@ -73,6 +73,15 @@
 
 /*========== Button Dark/Light ==========*/
 
+/* ===========CSS RESET=========== */
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
 /* Animated Background Video */
 
 #myVideo {
@@ -344,7 +353,8 @@ form {
 }
 
 .contact-me {
-  background: white;
+  background: white ;
+  height:fit-content;
   border: 2px solid darkgrey;
   line-height: 22px;
   transition: all 0.3s;
@@ -352,6 +362,9 @@ form {
   margin: 0 auto 50px auto;
   max-width: 500px;
   width: 100%;
+  margin:32px auto;
+  width:35%;
+
   align-items: center;
   border-radius: 10px;
   box-sizing: border-box;
@@ -443,6 +456,45 @@ footer ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 20rem;
+  background:linear-gradient(45deg, #3535c2,#6a72d8);
+  width:100%;
+  display: grid;
+  place-content: center;
+  position:relative;
+  overflow-x: hidden;
+  cursor: pointer;
+}
+/* shine animation */
+.footer-container:hover::before{
+  content:"";
+  position: absolute;
+  top:0;
+  left:-200px;
+  height:100%;
+  width:5rem;
+  background:#fffbfb86;
+  z-index: -1;
+  transform:skew(30deg);
+  animation: shine 2000ms infinite alternate;
+}
+
+@keyframes shine {
+  to{
+    left:110%;
+  }
+}
+
+footer ul {
+  position:relative;
+  margin:1rem auto;
+  height:fit-content;
+  padding:1rem;
+  display:flex;
+  justify-content: center;
+  align-items: center ;
+  gap:1rem;
+
 }
 
 footer ul li {
@@ -451,18 +503,20 @@ footer ul li {
 
 footer ul li a {
   position: relative;
-  width: 50px;
-  height: 50px;
-  display: block;
-  text-align: center;
   margin: 0 10px;
-  border-radius: 50%;
   padding: 6px;
   box-sizing: border-box;
-  text-decoration: none;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  width:50px;
+  height:50px;
+  display:block;
+  text-align:center;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  text-decoration:none;
+  box-shadow: 0 0 10px #a3d3f1;
   background: linear-gradient(0deg, #ddd, #fff);
-  transition: all 0.3s linear;
+  transition: transform 200ms ease;
 }
 
 footer ul li a:hover {
@@ -503,20 +557,26 @@ footer ul li:nth-child(5) a:hover .fab {
   color: #053eff;
 }
 
+
 footer img {
   height: 22px;
   width: 22px;
 }
 
-.copyright {
-  position: relative;
-  text-align: center;
-  color: rgb(0, 0, 0);
-  font-size: 1.2rem;
-  /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-weight: lighter;
-  margin: 20px 0 0 0;
+.courtesy
+{
+    position: relative;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 2rem auto;
+    color:#ffffff;
+    font-family:Cambria, Cochin;
+}
+.copyright{
+  text-align: left;
+  margin: 1rem;
+  color:#ffffff;
+  font-size: 1.3rem;
 }
 
 /*========== SCROLL UP ==========*/
