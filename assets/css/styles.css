@@ -3,77 +3,75 @@
 
 /*==================== VARIABLES CSS ====================*/
 :root {
-    --header-height: 3rem;
+  --header-height: 3rem;
 
-    /*========== Colors ==========*/
-    /* Change favorite color */
-    --hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+  /*========== Colors ==========*/
+  /* Change favorite color */
+  --hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
-    /* HSL color mode */
-    --first-color: hsl(var(--hue-color), 69%, 61%);
-    --first-color-second: hsl(var(--hue-color), 69%, 61%);
-    --first-color-alt: hsl(var(--hue-color), 57%, 53%);
-    --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
-    --title-color: hsl(var(--hue-color), 8%, 15%);
-    --text-color: hsl(var(--hue-color), 8%, 45%);
-    --text-color-light: hsl(var(--hue-color), 8%, 65%);
-    --input-color: hsl(var(--hue-color), 70%, 96%);
-    --body-color: hsl(var(--hue-color), 60%, 99%);
-    --container-color: #fff;
-    --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
-    --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+  /* HSL color mode */
+  --first-color: hsl(var(--hue-color), 69%, 61%);
+  --first-color-second: hsl(var(--hue-color), 69%, 61%);
+  --first-color-alt: hsl(var(--hue-color), 57%, 53%);
+  --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+  --title-color: hsl(var(--hue-color), 8%, 15%);
+  --text-color: hsl(var(--hue-color), 8%, 45%);
+  --text-color-light: hsl(var(--hue-color), 8%, 65%);
+  --input-color: hsl(var(--hue-color), 70%, 96%);
+  --body-color: hsl(var(--hue-color), 60%, 99%);
+  --container-color: #fff;
+  --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+  --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
-    /*========== Font and typography ==========*/
-    --body-font: 'Poppins', sans-serif;
+  /*========== Font and typography ==========*/
+  --body-font: "Poppins", sans-serif;
 
-    /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
-    --big-font-size: 2rem;
-    --h1-font-size: 1.5rem;
-    --h2-font-size: 1.25rem;
-    --h3-font-size: 1.125rem;
-    --normal-font-size: .938rem;
-    --small-font-size: .813rem;
-    --smaller-font-size: .75rem;
+  /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+  --big-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
 
-    /*========== Font weight ==========*/
-    --font-medium: 500;
-    --font-semi-bold: 600;
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
 
-    /*========== Margenes Bottom ==========*/
-    /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
-    --mb-0-25: .25rem;
-    --mb-0-5: .5rem;
-    --mb-0-75: .75rem;
-    --mb-1: 1rem;
-    --mb-1-5: 1.5rem;
-    --mb-2: 2rem;
-    --mb-2-5: 2.5rem;
-    --mb-3: 3rem;
+  /*========== Margenes Bottom ==========*/
+  /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
 
-    /*========== z index ==========*/
-    --z-tooltip: 10;
-    --z-fixed: 100;
-    --z-modal: 1000;
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
 }
 
 /* Font size for large devices */
 @media screen and (min-width: 968px) {
-    :root {
-        --big-font-size: 3rem;
-        --h1-font-size: 2.25rem;
-        --h2-font-size: 1.5rem;
-        --h3-font-size: 1.25rem;
-        --normal-font-size: 1rem;
-        --small-font-size: .875rem;
-        --smaller-font-size: .813rem;
-    }
+  :root {
+    --big-font-size: 3rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
+  }
 }
 
 /*========== Variables Dark theme ==========*/
 
-
 /*========== Button Dark/Light ==========*/
-
 
 /* ===========CSS RESET=========== */
 *,
@@ -92,16 +90,6 @@
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-}
-
-/* Add some content at the bottom of the video/page */
-.content {
-  position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
 }
 
 /* Style the button used to pause/play the video */
@@ -126,25 +114,26 @@
   bottom: 0;
   z-index: -1;
 }
- @media (min-aspect-ratio: 16/9) {
+@media (min-aspect-ratio: 16/9) {
   .back-video {
     width: 100%;
     height: auto;
   }
+}
 
-  @media (max-aspect-ratio: 16/9) {
-    .back-video {
-      width: auto;
-      height: 100%;
-    }
- }
+@media (max-aspect-ratio: 16/9) {
+  .back-video {
+    width: auto;
+    height: 100%;
+  }
+}
 /*==================== BASE ====================*/
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  padding: 0 10px;
- 
+  padding: 0;
+
   z-index: 1;
 }
 
@@ -152,18 +141,25 @@ html {
   scroll-behavior: smooth;
   padding: 0;
   margin: 0;
+  width: 100%;
+  height: 100%;
 }
 
 body {
-  margin: 0 0 var(--header-height) 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background:white;
+  background: white;
+  width: 100%;
+  height: 100%;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
+  text-align: center;
 }
 
 a {
@@ -191,7 +187,7 @@ img {
   margin-bottom: var(--mb-3);
 }
 
-.section__title, 
+.section__title,
 .section__subtitle {
   text-align: center;
 }
@@ -206,31 +202,39 @@ img {
 .grid {
   display: grid;
   gap: 1.5rem;
-  
 }
 
-.main{
-  margin-top: 15%;
+.main {
+  margin: 6rem auto;
+  max-width: 70vw;
 }
 
 .header {
-  width: 40%;
-  padding-left: 8%;
+  width: 100%;
+  margin: 0 auto;
+  max-width: fit-content;
   position: fixed;
   bottom: 0;
-  left: 30%;
-  height: 30px;
+  height: 40px;
   z-index: var(--z-fixed);
   background-color: rgb(74, 221, 241);
   box-shadow: 10px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#heading{
+#heading {
   font-size: 25px;
   font-family: Rockwell;
-  padding-left: 50px;
-  padding-right: 30px;
   text-align: center;
+  padding: 2rem;
+}
+
+.heading-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 /*==================== NAV ====================*/
@@ -277,84 +281,76 @@ img {
   background: var(--main-blue);
 }
 
-
 /* show menu */
-
 
 /* Active link */
 
-
 /* Change background header */
-
 
 /*==================== HOME ====================*/
 
-
 /*==================== BUTTONS ====================*/
-
 
 /*==================== ABOUT ====================*/
 
-
 /*==================== SKILLS ====================*/
 .html {
-    width: 90%;
-    background-color:rgb(247, 247, 115);
+  width: 90%;
+  background-color: rgb(247, 247, 115);
 }
 .css {
-    width: 80%;
-    background-color: #e7e7e7;
+  width: 80%;
+  background-color: #e7e7e7;
 }
 .js {
-    width: 35%; 
-    background-color: #f59089;
+  width: 35%;
+  background-color: #f59089;
 }
 .php {
-    width: 20%;
-    background-color: #808080;
+  width: 20%;
+  background-color: #808080;
 }
 .c {
-    width: 80%;
-    background-color: palegreen;
+  width: 80%;
+  background-color: palegreen;
 }
-.JAVA{
-    width: 95%;
-    background-color: #7bbdff;
+.JAVA {
+  width: 95%;
+  background-color: #7bbdff;
 }
-.PYTHON{
-    width: 80%;
-    background-color: rgb(252, 164, 255);
+.PYTHON {
+  width: 80%;
+  background-color: rgb(252, 164, 255);
 }
 .plus {
-    width: 70%;
-    background-color:rgb(186, 235, 106);
+  width: 70%;
+  background-color: rgb(186, 235, 106);
 }
 .sql {
-    width: 60%;
-    background-color: rgb(238, 153, 114);
+  width: 60%;
+  background-color: rgb(238, 153, 114);
 }
 
 /*==================== QUALIFICATION ====================*/
 
-
 /*==================== SERVICES ====================*/
-
 
 /* Active Modal */
 
-
 /*==================== PORTFOLIO ====================*/
-
 
 /*==================== PROJECT IN MIND ====================*/
 
-
 /*==================== TESTIMONIAL ====================*/
-
 
 /*==================== CONTACT ME ====================*/
 
-form { max-width:420px; margin:50px auto; }
+form {
+  max-width: 420px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+}
 
 .contact-me {
   background: white ;
@@ -363,86 +359,103 @@ form { max-width:420px; margin:50px auto; }
   line-height: 22px;
   transition: all 0.3s;
   padding: 16px;
+  margin: 0 auto 50px auto;
+  max-width: 500px;
+  width: 100%;
   margin:32px auto;
   width:35%;
+
   align-items: center;
-  margin-left: 33%;
-  border-radius: 10px ;
+  border-radius: 10px;
   box-sizing: border-box;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
 }
 .feedback-input {
-  color:white;
+  color: white;
   font-family: Helvetica, Arial, sans-serif;
-  font-weight:500;
+  font-weight: 500;
   font-size: 18px;
   border-radius: 15px;
   line-height: 22px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   background-color: transparent;
-  border:2px solid #E0115F;
+  border: 2px solid #e0115f;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
-  width:100%;
+  width: 100%;
   box-sizing: border-box;
-  outline:0;
+  outline: 0;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
 }
-.feedback-input:hover{
-  background-color: #F25278;
+.feedback-input:hover {
+  background-color: #f25278;
 }
 
-.feedback-input:focus { border:2px solid #E0115F; }
+.feedback-input:focus {
+  border: 2px solid #e0115f;
+}
 
 textarea {
   height: 100px;
   line-height: 150%;
-  resize:vertical;
+  resize: vertical;
 }
 
 .contact1 {
-  color: #E0115F;
+  color: #e0115f;
   width: 100%;
   text-align: center;
   padding-top: 1%;
   outline: 0;
 }
 
-[type="submit"] {
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  width: 30%;
+input[type="submit"] {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  width: 200px;
   align-items: center;
   position: relative;
-  margin-left: 35%;
-  background:#E0115F;
-  border-radius:5px;
-  border:0;
-  cursor:pointer;
-  color:white;
-  font-size:24px;
-  padding-top:10px;
-  padding-bottom:10px;
-  transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
+  background: #e0115f;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: width 0.3s;
+  font-weight: 700;
+  margin: 0 auto;
 }
-[type="submit"]:hover { background:#7bbdff;
-  width:40%;
-  margin-left: 30%;
- }
+
+input[type="submit"]:hover {
+  background: #7bbdff;
+  width: 220px;
+}
 
 /*==================== FOOTER ====================*/
 .footer-container {
-  padding:0;
+  padding: 3rem 1rem 5rem 1rem;
+  background-color: #ded2d2;
+  background-image: linear-gradient(to right bottom, rgba(128, 128, 128, 0.299), rgba(255, 0, 0, 0.222)),
+    url("https://t3.ftcdn.net/jpg/02/91/65/70/360_F_291657078_Qicf1iAn8AcuvlC9juR8QJvGmiQj69gM.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer ul {
+  margin-bottom: 2rem;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 20rem;
   background:linear-gradient(45deg, #3535c2,#6a72d8);
   width:100%;
@@ -481,6 +494,7 @@ footer ul {
   justify-content: center;
   align-items: center ;
   gap:1rem;
+
 }
 
 footer ul li {
@@ -489,6 +503,9 @@ footer ul li {
 
 footer ul li a {
   position: relative;
+  margin: 0 10px;
+  padding: 6px;
+  box-sizing: border-box;
   width:50px;
   height:50px;
   display:block;
@@ -503,21 +520,21 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   transform: scale(1.1);
-  text-decoration:none;
+  text-decoration: none;
 }
 
 footer ul li a .fab {
   width: 100%;
-  height:100%;
-  display:block;
+  height: 100%;
+  display: block;
   background: linear-gradient(0deg, #fff, #ddd);
   border-radius: 50%;
   line-height: calc(50px - 12px);
-  font-size:24px;
+  font-size: 24px;
   color: #262626;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 footer ul li:nth-child(1) a:hover .fab {
@@ -540,6 +557,12 @@ footer ul li:nth-child(5) a:hover .fab {
   color: #053eff;
 }
 
+
+footer img {
+  height: 22px;
+  width: 22px;
+}
+
 .courtesy
 {
     position: relative;
@@ -556,21 +579,15 @@ footer ul li:nth-child(5) a:hover .fab {
   font-size: 1.3rem;
 }
 
-
 /*========== SCROLL UP ==========*/
-
 
 /* Show scroll */
 
-
 /*========== SCROLL BAR ==========*/
-
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 
-
 /* For medium devices */
-
 
 /* For large devices */
