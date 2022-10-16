@@ -18,9 +18,13 @@
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="assets/css/navbar.css" />
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+    </style>
     <script src="jquery-3.6.1.min.js"></script>
 
-    <title>Responsive Portfolio Website</title>
+    <title>Devendra Tayade | Portfolio</title>
   </head>
 
   <body>
@@ -33,15 +37,16 @@
       <!--==================== HEADER ====================-->
       <div class="heading-wrapper">
         <header class="header" id="heading">
-          <a href="https://www.linkedin.com/in/devtayade/">LinkedIn</a>&nbsp;&nbsp; <a href="https://dribbble.com/devtayade">Dribble</a>&nbsp;&nbsp;
-          <a href="https://github.com/devtayade">Github</a>&nbsp;&nbsp; <a href="https://www.behance.net/devendratayade">Behance</a>&nbsp;&nbsp;
+          <a href="https://www.linkedin.com/in/devtayade/"><img src="assets/icons8-linkedin-48.png" alt="LinkedIn" height="30" width="30"></a>
+          <a href="https://dribbble.com/devtayade"><img src="assets/icons8-dribbble-48.png" alt="dribbble" height="30" width="30"></a>
+          <a href="https://github.com/devtayade"><img src="assets/icons8-github-48.png" alt="Github" height="30" width="30"></a>
+          <a href="https://www.behance.net/devendratayade"><img src="assets/icons8-behance-48.png" alt="Behance" height="30" width="30"></a>
         </header>
       </div>
         
         <nav class="navbar navbar-expand-custom navbar-mainbg">
-            <a class="navbar-brand navbar-logo" href="#">My Portfolio</a>
-            <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <a class="navbar-brand navbar-logo" href="#"><span class="logo-symbol">»</span>Devendra Tayade</a>
+            <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars text-white"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -50,6 +55,11 @@
                         <div class="left"></div>
                         <div class="right"></div>
                     </div>
+                    <input type="checkbox" name="" id="dark-mode-toggle"/>
+                    <label for="dark-mode-toggle">
+                      <svg version="1.1" class="sun"></svg>
+                      <svg version="1.1" class="moon"></svg>
+                    </label>
                     <li class="nav-item active">
                         <a class="nav-link" href="#about"><i class="fas fa-tachometer-alt"></i>About</a>
                     </li>
@@ -74,23 +84,28 @@
     <!--==================== MAIN ====================-->
     <main class="main">
       <section id="heading">
-        <h1>I am designer who codes!</h1>
+        <h1><span class="heading"><span class="logo-symbol1">•</span>I am a <span class="role">Designer</span></span> <br/> who codes!</h1>
       </section>
 
       <!--==================== ABOUT ====================-->
-      <section class="about section" id="about">
+      <section class="about-section" id="about">
         <p>
-          Hello, I Am Devendra. I speak code and my blood group is C++. I fell in love with computers when I first pressed a key on the keyboard in 2016. Seeking a fresher role to enhance and explore
-          my technical knowledge while studying at Savitribai Phule Pune University and I am persuing a B.E degree from BSIOTR, pune. I am working and learning on multiple Android/iOS Projects and
+          Hello, I am <h3>Devendra.👋</h3> I speak code and my blood group is C++. <br/>I fell in love with computers when I first pressed a key on the keyboard in 2016. Seeking a fresher role to enhance and explore
+          my technical knowledge while studying at <b>Savitribai Phule Pune University</b> and I am persuing a B.E degree from BSIOTR, Pune. I am working and learning on multiple Android/iOS Projects and
           Apps involving C++, C# and Java although I am from an electronics and telecommunication engineering branch! I am very passionate about Application design & development, databases and
-          open-source contributions. I am exploring expertise in full implementation of various projects including UI/UX, Development and testing. Technologies I work with: Android, Java, Flutter,
-          databases, Kotlin, Google Cloud, Firebase and networks.
+          open-source contributions. I am exploring expertise in full implementation of various projects including UI/UX, Development and testing. <br/>
+          Technologies I work with: <b>Android, Java, Flutter,
+          Databases, Kotlin, Google Cloud, Firebase and Networks.</b>
         </p>
       </section>
 
+      <div class="illustration">
+        <img src="assets/139-removebg-preview.png" alt="illustration" style="float: right;">
+      </div>
+
       <!--==================== SKILLS ====================-->
       <section class="skills section" id="skills">
-        <h1 class="heading" id="skills"><span>SKILLS:</span></h1>
+        <h1 class="heading" id="skills"><span class="skills-portfolio">SKILLS</span></h1>
 
         <p>HTML</p>
         <div class="container">
@@ -144,7 +159,7 @@
       <!--==================== QUALIFICATION ====================-->
       <section class="qualification section" id="qualification"></section>
 
-      <p>BE</p>
+      <p class="achievements">Bachelor of Engineering &nbsp;&nbsp;&nbsp;&nbsp;<i>BSIOTR, Pune</i></p>
       <div class="qualification section">
         <div class="TE">80%</div>
       </div>
@@ -190,7 +205,7 @@
             <ul>
                 <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
                 <li><a href="#"><i class="fab fa-dribbble" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/mr.devtayade"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
                 <li><a href="#"><i class="fab fa-github" aria-hidden="true"></i></a></li>
                 <li><a href="#"><i class="fab fa-behance" aria-hidden="true"></i></a></li>
                 
