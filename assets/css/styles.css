@@ -69,9 +69,91 @@
   }
 }
 
+body{
+  background-color: rgb(206, 196, 196);
+  cursor: wait;
+}
+
+header{
+  text-align: right;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 50px;
+}
+#heading{
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  padding-right: 30px;
+}
+#about{
+  width: 650px;
+  align-items: center;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  margin: 20px;
+  text-align: left;
+  border-radius: 20px;
+}
+#skills{
+  display: inline;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 30px;
+
+}
+.container{
+  font-size: 25px;
+  border-radius: 50px;
+}
+
+
 /*========== Variables Dark theme ==========*/
 
 /*========== Button Dark/Light ==========*/
+label {
+  right: 10px;
+  width:60px;
+  height:30px;
+  position: relative;
+  display: block;
+  top: 15px;
+  background: #ebebeb;
+  border-radius: 200px;
+  box-shadow: inset 0px 3px 5px rgba(0,0,0,0.4), inset 0px -5px 15px rgba(255,255,255,0.4);
+  cursor: pointer;
+}
+
+label:after {
+  content: "";
+  width:20px;
+  height:20px;
+  position: absolute;
+  top:5px;
+  left:10px;
+  background: linear-gradient(180deg,#ffcc89,#d8860b);
+  border-radius: 180px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+}
+#dark-mode-toggle{
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+input:checked + label {
+  background: #242424;
+}
+input:checked + label:after {
+  left: 50px;
+  transform: translateX(-100%);
+  background: linear-gradient(180deg,#777,#3a3a3a);
+}
+label, label:after {
+  transition: 0.3s
+}
+
+
 
 /* ===========CSS RESET=========== */
 *,
@@ -105,7 +187,7 @@
 
 #myBtn:hover {
   background: #ddd;
-  color: black;
+  color: #2c2c2c;
 }
 
 .back-video {
@@ -159,8 +241,19 @@ h3,
 h4 {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
-  text-align: center;
+  text-align: left;
+  font-style: 'Poppins', sans-serif;
 }
+
+h3{
+  color: white;
+}
+
+p{
+  font-size: 15px;
+  font-weight: bold;
+}
+
 
 a {
   text-decoration: none;
@@ -194,7 +287,7 @@ img {
 
 /*==================== LAYOUT ====================*/
 .container {
-  max-width: 768px;
+  max-width: 300px;
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
 }
@@ -210,31 +303,49 @@ img {
 }
 
 .header {
-  width: 100%;
-  margin: 0 auto;
-  max-width: fit-content;
+  height: 100%;
   position: fixed;
   bottom: 0;
   height: 40px;
   z-index: var(--z-fixed);
-  background-color: rgb(74, 221, 241);
-  box-shadow: 10px black;
+  box-shadow: 10px #2c2c2c;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  font-style: 'Poppins', sans-serif;
+  border-radius: 50px;
 }
 
-#heading {
-  font-size: 25px;
-  font-family: Rockwell;
-  text-align: center;
-  padding: 2rem;
+.role{
+  color: #fff;
+}
+
+.logo-symbol1{
+  font-size: 50px;
 }
 
 .heading-wrapper {
-  width: 100%;
+  padding-bottom: 20px;
+  height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  align-items: center;
+  border-radius: 50px;
+}
+.heading-wrapper .header{
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.heading-wrapper.header a{
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
 }
 
 /*==================== NAV ====================*/
@@ -278,7 +389,7 @@ img {
 }
 
 .nav-list a:hover {
-  background: var(--main-blue);
+  background: #2c2c2c;
 }
 
 /* show menu */
@@ -288,6 +399,11 @@ img {
 /* Change background header */
 
 /*==================== HOME ====================*/
+.illustration{
+  max-height: 500px;
+  max-width: 500px;
+  align-items: right;
+}
 
 /*==================== BUTTONS ====================*/
 
@@ -295,40 +411,74 @@ img {
 
 /*==================== SKILLS ====================*/
 .html {
+  padding: 5px;
   width: 90%;
   background-color: rgb(247, 247, 115);
+  border-radius: 20px;
+  font-size: 20px;
 }
 .css {
+  padding: 5px;
   width: 80%;
   background-color: #e7e7e7;
+  border-radius: 50px;
+  font-size: 20px;
 }
 .js {
+  padding: 5px;
   width: 35%;
   background-color: #f59089;
+  border-radius: 50px;
+  font-size: 20px;
 }
 .php {
+  padding: 5px;
   width: 20%;
   background-color: #808080;
+  border-radius: 50px;
+  font-size: 20px;
 }
 .c {
+  padding: 5px;
   width: 80%;
   background-color: palegreen;
+  border-radius: 50px;
+  font-size: 20px;
 }
 .JAVA {
+  padding: 5px;
   width: 95%;
   background-color: #7bbdff;
+  border-radius: 50px;
+  font-size: 20px;
+}
+.Kotlin{
+  padding: 5px;
+  width: 70%;
+  background-color: #608261;
+  border-radius: 50px;
+  font-size: 20px;
 }
 .PYTHON {
+  padding: 5px;
   width: 80%;
   background-color: rgb(252, 164, 255);
+  border-radius: 50px;
+  font-size: 20px;
 }
 .plus {
+  padding: 5px;
   width: 70%;
   background-color: rgb(186, 235, 106);
+  border-radius: 50px;
+  font-size: 20px;
 }
 .sql {
+  padding: 5px;
   width: 60%;
   background-color: rgb(238, 153, 114);
+  border-radius: 50px;
+  font-size: 20px;
 }
 
 /*==================== QUALIFICATION ====================*/
@@ -346,7 +496,7 @@ img {
 /*==================== CONTACT ME ====================*/
 
 form {
-  max-width: 420px;
+  max-width: 300px;
   margin: 50px auto;
   display: flex;
   flex-direction: column;
@@ -376,7 +526,7 @@ form {
 }
 .feedback-input {
   color: white;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 18px;
   border-radius: 15px;
@@ -412,9 +562,10 @@ textarea {
 .contact1 {
   color: #e0115f;
   width: 100%;
-  text-align: center;
+  text-align: left;
   padding-top: 1%;
   outline: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 input[type="submit"] {
