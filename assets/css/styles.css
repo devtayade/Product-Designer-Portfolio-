@@ -349,7 +349,9 @@ img {
 }
 
 /*==================== NAV ====================*/
-
+nav{
+  z-index:2;
+}
 .nav {
   display: flex;
   justify-content: flex-end;
@@ -361,7 +363,6 @@ img {
   width: 100%;
   background: rgb(74, 221, 241);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
-  z-index: 2;
 }
 
 .nav-list {
@@ -540,6 +541,7 @@ form {
   width: 100%;
   box-sizing: border-box;
   outline: 0;
+  z-index:1;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
@@ -619,9 +621,6 @@ footer ul {
 /* shine animation */
 .footer-container:hover::before{
   content:"";
-  position: absolute;
-  top:0;
-  left:-200px;
   height:100%;
   width:5rem;
   background:#fffbfb86;
