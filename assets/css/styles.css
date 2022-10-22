@@ -71,7 +71,6 @@
 
 body{
   background-color: rgb(206, 196, 196);
-  cursor: wait;
 }
 
 header{
@@ -409,78 +408,6 @@ nav{
 /*==================== BUTTONS ====================*/
 
 /*==================== ABOUT ====================*/
-
-/*==================== SKILLS ====================*/
-.html {
-  padding: 5px;
-  width: 90%;
-  background-color: rgb(247, 247, 115);
-  border-radius: 20px;
-  font-size: 20px;
-}
-.css {
-  padding: 5px;
-  width: 80%;
-  background-color: #e7e7e7;
-  border-radius: 50px;
-  font-size: 20px;
-}
-.js {
-  padding: 5px;
-  width: 35%;
-  background-color: #f59089;
-  border-radius: 50px;
-  font-size: 20px;
-}
-.php {
-  padding: 5px;
-  width: 20%;
-  background-color: #808080;
-  border-radius: 50px;
-  font-size: 20px;
-}
-.c {
-  padding: 5px;
-  width: 80%;
-  background-color: palegreen;
-  border-radius: 50px;
-  font-size: 20px;
-}
-.JAVA {
-  padding: 5px;
-  width: 95%;
-  background-color: #7bbdff;
-  border-radius: 50px;
-  font-size: 20px;
-}
-.Kotlin{
-  padding: 5px;
-  width: 70%;
-  background-color: #608261;
-  border-radius: 50px;
-  font-size: 20px;
-}
-.PYTHON {
-  padding: 5px;
-  width: 80%;
-  background-color: rgb(252, 164, 255);
-  border-radius: 50px;
-  font-size: 20px;
-}
-.plus {
-  padding: 5px;
-  width: 70%;
-  background-color: rgb(186, 235, 106);
-  border-radius: 50px;
-  font-size: 20px;
-}
-.sql {
-  padding: 5px;
-  width: 60%;
-  background-color: rgb(238, 153, 114);
-  border-radius: 50px;
-  font-size: 20px;
-}
 
 /*==================== QUALIFICATION ====================*/
 
