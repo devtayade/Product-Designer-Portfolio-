@@ -455,6 +455,9 @@ nav{
   border-radius: 50%;
   border: 7px solid #e0115f;
 }
+.about h2,h4{
+  text-align: center;
+}
 .content{
   font-size: 18px;
 }
