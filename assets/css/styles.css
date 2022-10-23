@@ -421,6 +421,59 @@ nav{
 
 /*==================== TESTIMONIAL ====================*/
 
+.testimonial{
+  height: 70vh;
+  width: 100%;
+  margin-bottom: 5%; 
+}
+
+.test-content{
+  max-width:1000px;
+  padding: 0 15px 50px;
+  margin:0 auto 80px auto;
+}
+.single-item{
+  background: rgb(255, 255, 255);
+  color: #000;
+  padding: 15px;
+  margin: 50px 15px;
+  border-radius: 50px 0 50px 0;
+  border-top: 7px solid #e0115f;
+  border-bottom: 7px solid #e0115f;
+     
+}
+.profile{
+  margin-bottom: 30px;
+  text-align: center;
+}
+.img-area{
+  margin: 0 15px 15px 15px;
+}
+.img-area img{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 7px solid #e0115f;
+}
+.content{
+  font-size: 18px;
+}
+.content p{
+  text-align:justify;
+}
+.content p span{
+  font-size: 48px;
+  margin-right: 20px;
+  color: #e0115f;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+  background-color: #e0115f;
+  border-radius:20%;
+}
+
+
+
 /*==================== CONTACT ME ====================*/
 
 form {
