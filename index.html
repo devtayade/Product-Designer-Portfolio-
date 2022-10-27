@@ -1,462 +1,450 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--==================== UNICONS ====================-->
-    <!--==================== FONT AWESOME ICONS CDN ====================-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 
-    <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="assets\css\swiper-bundle.min.css" />
-    <link rel="stylesheet" href="example.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--==================== UNICONS ====================-->
+  <!--==================== FONT AWESOME ICONS CDN ====================-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 
-    <!--==================== CSS ====================-->
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <link rel="stylesheet" href="assets/css/navbar.css" />
-    <link rel="stylesheet" href="assets/css/myProjects.css" />
-    <link rel="stylesheet" href="skills.css">
-    <link rel="stylesheet" href="cards.css">
+  <!--==================== SWIPER CSS ====================-->
+  <link rel="stylesheet" href="assets\css\swiper-bundle.min.css" />
+  <link rel="stylesheet" href="example.css" />
 
-    <script src="jquery-3.6.1.min.js"></script>
+  <!--==================== CSS ====================-->
 
-    <title>Devendra Tayade | Portfolio</title>
-  </head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/navbar.css" />
+  <link rel="stylesheet" href="assets/css/myProjects.css" />
+  <link rel="stylesheet" href="skills.css">
+  <link rel="stylesheet" href="cards.css">
 
-  <body>
-    <!-- The video -->
-    <video autoplay muted loop id="myVideo" class="back-video">
+  <script src="jquery-3.6.1.min.js"></script>
+
+  <title>Devendra Tayade | Portfolio</title>
+</head>
+
+<body>
+  <!-- The video -->
+  <!-- <video autoplay muted loop id="myVideo" class="back-video">
       <source src="assets/video/SnapSave.io-Abstract Frame Video Background, Border Motion Background, Pink Background _ Free Stock Footage-(1080p).mp4" type="video/mp4" />
-    </video>
-    
-    <section id="header">
-    
-      <!--==================== HEADER ====================-->
-      <div class="heading-wrapper">
-        <header class="header" id="heading">
-          <a href="https://www.linkedin.com/in/devtayade/"><img src="assets/icons8-linkedin-48.png" alt="LinkedIn" height="30" width="30"></a>
-          <a href="https://dribbble.com/devtayade"><img src="assets/icons8-dribbble-48.png" alt="dribbble" height="30" width="30"></a>
-          <a href="https://github.com/devtayade"><img src="assets/icons8-github-48.png" alt="Github" height="30" width="30"></a>
-          <a href="https://www.behance.net/devendratayade"><img src="assets/icons8-behance-48.png" alt="Behance" height="30" width="30"></a>
-        </header>
+    </video> -->
+
+  <section id="header">
+
+    <!--==================== HEADER ====================-->
+
+    <nav class="navbar navbar-expand-custom navbar-mainbg">
+      <a class="navbar-brand navbar-logo" href="#"><span class="logo-symbol">»</span>Devendra Tayade</a>
+      <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fas fa-bars text-white"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <div class="hori-selector">
+            <div class="left"></div>
+            <div class="right"></div>
+          </div>
+          <input type="checkbox" name="" id="dark-mode-toggle" />
+          <label for="dark-mode-toggle">
+            <svg version="1.1" class="sun"></svg>
+            <svg version="1.1" class="moon"></svg>
+          </label>
+          <li class="nav-item active">
+            <a class="nav-link" href="#about"><i class="fas fa-tachometer-alt"></i>About</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#skills"><i class="far fa-address-book"></i>Skills</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#Achievements"><i class="fa-solid fa-trophy"></i>Achievements</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project"><i class="far fa-clone"></i>Project</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonial"><i class="fa-solid fa-address-card"></i>Testimonials</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact"><i class="far fa-calendar-alt"></i>Contact</a>
+          </li>
+
+        </ul>
       </div>
-        
-        <nav class="navbar navbar-expand-custom navbar-mainbg">
-            <a class="navbar-brand navbar-logo" href="#"><span class="logo-symbol">»</span>Devendra Tayade</a>
-            <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars text-white"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <div class="hori-selector">
-                        <div class="left"></div>
-                        <div class="right"></div>
-                    </div>
-                    <input type="checkbox" name="" id="dark-mode-toggle"/>
-                    <label for="dark-mode-toggle">
-                      <svg version="1.1" class="sun"></svg>
-                      <svg version="1.1" class="moon"></svg>
-                    </label>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#about"><i class="fas fa-tachometer-alt"></i>About</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#skills"><i class="far fa-address-book"></i>Skills</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#achievements"><i class="fa-solid fa-trophy"></i>Achievements</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#project"><i class="far fa-clone"></i>Project</a>
-                    </li>
-                  
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testimonial"><i class="fa-solid fa-address-card"></i>Testimonials</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact"><i class="far fa-calendar-alt"></i>Contact</a>
-                    </li>
+    </nav>
+  </section>
 
-                </ul>
-            </div>
-         </nav>
-    </section>
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    <section id="profile">
 
-    <!--==================== MAIN ====================-->
-    <main class="main">
-      <section id="heading">
-        <h1><span class="heading"><span class="logo-symbol1">•</span>I am a <span class="role">Designer</span></span> <br/> who codes!</h1> </section>
+      <div class="heading-wrapper">
+
+        <a href="https://www.linkedin.com/in/devtayade/"><img src="assets/icons8-linkedin-48.png" alt="LinkedIn"
+            height="30" width="30"></a>
+        <a href="https://dribbble.com/devtayade"><img src="assets/icons8-dribbble-48.png" alt="dribbble" height="30"
+            width="30"></a>
+        <a href="https://github.com/devtayade"><img src="assets/icons8-github-48.png" alt="Github" height="30"
+            width="30"></a>
+        <a href="https://www.behance.net/devendratayade"><img src="assets/icons8-behance-48.png" alt="Behance"
+            height="30" width="30"></a>
+
+      </div>
 
       <!--==================== ABOUT ====================-->
-      <section class="about-section" id="about">
-        <p>
-          Hello, I am <h3>Devendra.👋</h3> I speak code and my blood group is C++. <br/>I fell in love with computers when I first pressed a key on the keyboard in 2016. Seeking a fresher role to enhance and explore
-          my technical knowledge while studying at <b>Savitribai Phule Pune University</b> and I am persuing a B.E degree from BSIOTR, Pune. I am working and learning on multiple Android/iOS Projects and
-          Apps involving C++, C# and Java although I am from an electronics and telecommunication engineering branch! I am very passionate about Application design & development, databases and
-          open-source contributions. I am exploring expertise in full implementation of various projects including UI/UX, Development and testing. <br/>
-          Technologies I work with: <b>Android, Java, Flutter,
-          Databases, Kotlin, Google Cloud, Firebase and Networks.</b>
-        </p>
-      </section>
-
-      <div class="illustration">
-        <img src="assets/139-removebg-preview.png" alt="illustration" style="float: right;">
+      <div id="heading">
+        <p>Hi, I'm</p>
+        <h1><span class="heading">Devendra.👋</span></h1>
+        <span style="color:#da2268">• I am a Designer who codes!</span>
       </div>
 
-      <!--==================== SKILLS ====================-->
-      <section class="skills section" id="skills">
-        <h1>Skills</h1>
-        <div class="container">
-            <div class="card">
-                <div class="percent" style="--clr: #04fc43; --num:90;">
-                    <div class="dot"></div>
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                    <div class="number">
-                        <h2>90<span>%</span></h2>
-                        <p>HTML</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="percent" style="--clr: #04fc43; --num:70;">
-                    <div class="dot"></div>
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                    <div class="number">
-                        <h2>70<span>%</span></h2>
-                        <p>CSS</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="percent" style="--clr: #04fc43; --num:50;">
-                    <div class="dot"></div>
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                    <div class="number">
-                        <h2>50<span>%</span></h2>
-                        <p>C++</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="percent" style="--clr: #04fc43; --num:75;">
-                    <div class="dot"></div>
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                    <div class="number">
-                        <h2>75<span>%</span></h2>
-                        <p>PHP</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="percent" style="--clr: #04fc43; --num:60;">
-                    <div class="dot"></div>
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                    <div class="number">
-                        <h2>60<span>%</span></h2>
-                        <p>C</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="percent" style="--clr: #04fc43; --num:80;">
-                    <div class="dot"></div>
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                    <div class="number">
-                        <h2>80<span>%</span></h2>
-                        <p>Java</p>
-                    </div>
-                </div>
-            </div>
-
+      <div class="about-section" id="about">
+        <div id="discription">
+          <p>
+            I speak code and my blood group is C++. <br />I fell in love with computers when I first
+            pressed a key on the keyboard in 2016. Seeking a fresher role to enhance and explore
+            my technical knowledge while studying at <b>Savitribai Phule Pune University</b> and I am persuing a B.E
+            degree
+            from BSIOTR, Pune. I am working and learning on multiple Android/iOS Projects and
+            Apps involving C++, C# and Java although I am from an electronics and telecommunication engineering branch! I
+            am
+            very passionate about Application design & development, databases and
+            open-source contributions. I am exploring expertise in full implementation of various projects including
+            UI/UX,
+            Development and testing. <br />
+            Technologies I work with: <b>Android, Java, Flutter,
+              Databases, Kotlin, Google Cloud, Firebase and Networks.</b>
+          </p>
         </div>
-      </section>
+      </div>
+      <!-- <div class="illustration">
+        <img src="assets/139-removebg-preview.png" alt="illustration" style="float: right;">
+      </div> -->
+    </section>
 
-      <section class="card-container">
-        <div class="container">
-          <div class="card">
-            <div class="circle">
-              <h3>Achievements</h3>
-            </div>
-            <div class="content">
-              <div class="features">
-                This is the achievements section.      
-              </div>
-              <a href="#">Learn More</a>
-            </div>
-          </div>
 
-          <div class="card">
-            <div class="circle">
-              <h3>Services</h3>
-            </div>
-            <div class="content">
-              <div class="features">
-                I Design Impactful Digital Products.      
-              </div>
-              <a href="#">Learn More</a>
+    <!--==================== SKILLS ====================-->
+    <section class="skills section" id="skills">
+      <h1>Skills</h1>
+      <div class="container">
+        <div class="card">
+          <div class="percent" style="--clr: #04fc43; --num:90;">
+            <div class="dot"></div>
+            <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70"></circle>
+            </svg>
+            <div class="number">
+              <h2>90<span>%</span></h2>
+              <p>HTML</p>
             </div>
           </div>
         </div>
-      </section>
-      <!--==================== MY PROJECTS ====================-->
 
-      <section class="project section" id="project">
-        <h1>Project</h1>
-                 <div class="card">
-          <div class="card-top"></div>
-          <div class="card-bottom">
-            <div class="card-bottom-text">Test-Titel</div>
-            <div class="card-bottom-icons">
-              <img src="https://i.imgur.com/Nt43qHp.png">
-              <img src="https://i.imgur.com/4W4Mwng.png">
-              <img src="https://i.imgur.com/a7uTeBt.png">
-            </div>
-           </div>
-        </div>
         <div class="card">
-          <div class="card-top"></div>
-          <div class="card-bottom">
-            <div class="card-bottom-text">Test-Titel</div>
-            <div class="card-bottom-icons">
-              <img src="https://i.imgur.com/Nt43qHp.png">
-              <img src="https://i.imgur.com/4W4Mwng.png">
-              <img src="https://i.imgur.com/a7uTeBt.png">
+          <div class="percent" style="--clr: #04fc43; --num:70;">
+            <div class="dot"></div>
+            <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70"></circle>
+            </svg>
+            <div class="number">
+              <h2>70<span>%</span></h2>
+              <p>CSS</p>
             </div>
-           </div>
-        </div>
-        <div class="card">
-          <div class="card-top"></div>
-          <div class="card-bottom">
-            <div class="card-bottom-text">Test-Titel</div>
-            <div class="card-bottom-icons">
-              <img src="https://i.imgur.com/Nt43qHp.png">
-              <img src="https://i.imgur.com/4W4Mwng.png">
-              <img src="https://i.imgur.com/a7uTeBt.png">
-            </div>
-           </div>
-        </div>
-        <div class="card">
-          <div class="card-top"></div>
-          <div class="card-bottom">
-            <div class="card-bottom-text">Test-Titel</div>
-            <div class="card-bottom-icons">
-              <img src="https://i.imgur.com/Nt43qHp.png">
-              <img src="https://i.imgur.com/4W4Mwng.png">
-              <img src="https://i.imgur.com/a7uTeBt.png">
-            </div>
-           </div>
-        </div>
-        <div class="card">
-          <div class="card-top"></div>
-          <div class="card-bottom">
-            <div class="card-bottom-text">Test-Titel</div>
-            <div class="card-bottom-icons">
-              <img src="https://i.imgur.com/Nt43qHp.png">
-              <img src="https://i.imgur.com/4W4Mwng.png">
-              <img src="https://i.imgur.com/a7uTeBt.png">
-            </div>
-           </div>
-        </div>
-        <div class="card">
-          <div class="card-top"></div>
-          <div class="card-bottom">
-            <div class="card-bottom-text">Test-Titel</div>
-            <div class="card-bottom-icons">
-              <img src="https://i.imgur.com/Nt43qHp.png">
-              <img src="https://i.imgur.com/4W4Mwng.png">
-              <img src="https://i.imgur.com/a7uTeBt.png">
-            </div>
-           </div>
-        </div>
-        <div class="card">
-          <div class="card-top"></div>
-          <div class="card-bottom">
-            <div class="card-bottom-text">Test-Titel</div>
-            <div class="card-bottom-icons">
-              <img src="https://i.imgur.com/Nt43qHp.png">
-              <img src="https://i.imgur.com/4W4Mwng.png">
-              <img src="https://i.imgur.com/a7uTeBt.png">
-            </div>
-           </div>
+          </div>
         </div>
 
-      </section>
-
-      <!--==================== TESTIMONIAL ====================-->
-      
-      <section class="testimonial section" id="testimonial">
-        <div>
-          <h1>Testimonials</h1>
+        <div class="card">
+          <div class="percent" style="--clr: #04fc43; --num:50;">
+            <div class="dot"></div>
+            <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70"></circle>
+            </svg>
+            <div class="number">
+              <h2>50<span>%</span></h2>
+              <p>C++</p>
+            </div>
+          </div>
         </div>
-        <div class="test-content">
-          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="single-item">
-                  <div class="row">
-                    <div class="col-md-5">
-                      <div class="profile">
-                        <div class="img-area">
-                          <img src="assets/img/testImg1.jpg" alt="person1">
-                        </div>
-                        <div class="about">
-                          <h2>Mary Collin</h2>
-                          <h4>Lorem Ipsum</h4>
-                        </div>
+
+        <div class="card">
+          <div class="percent" style="--clr: #04fc43; --num:75;">
+            <div class="dot"></div>
+            <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70"></circle>
+            </svg>
+            <div class="number">
+              <h2>75<span>%</span></h2>
+              <p>PHP</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="percent" style="--clr: #04fc43; --num:60;">
+            <div class="dot"></div>
+            <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70"></circle>
+            </svg>
+            <div class="number">
+              <h2>60<span>%</span></h2>
+              <p>C</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="percent" style="--clr: #04fc43; --num:80;">
+            <div class="dot"></div>
+            <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70"></circle>
+            </svg>
+            <div class="number">
+              <h2>80<span>%</span></h2>
+              <p>Java</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="card-container" id="Achievements">
+      <h1>Achievements</h1>
+      <div class="container">
+        <div class="card">
+          <div class="circle">
+            <h3>Achievements</h3>
+          </div>
+          <div class="content">
+            <div class="features">
+              This is the achievements section.
+            </div>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="circle">
+            <h3>Services</h3>
+          </div>
+          <div class="content">
+            <div class="features">
+              I Design Impactful Digital Products.
+            </div>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--==================== MY PROJECTS ====================-->
+
+    <section class="project section" id="project">
+
+      <h1>Project</h1>
+      <div class="proj-container">
+        <div class="card">
+          <div class="card-top">
+            <h3>Project 1</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-top">
+            <h3>Project 2</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-top">
+            <h3>Project 3</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-top">
+            <h3>Project 4</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-top">
+            <h3>Project 5</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-top">
+            <h3>Project 6</h3>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!--==================== TESTIMONIAL ====================-->
+
+    <section class="testimonial section" id="testimonial">
+      <h1>Testimonials</h1>
+      <div class="test-content">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="single-item">
+                <div class="row">
+                  <div class="col-md-5">
+                    <div class="profile">
+                      <div class="img-area">
+                        <img src="assets/img/testImg1.jpg" alt="person1">
                       </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="content">
-                        <p><span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor, sit amet consectetur 
-                          adipisicing elit. Ratione officiis placeat, maxime animi rerum laboriosam, perferendis 
-                          quis nulla omnis ipsa aliquid inventore minima facilis minus.</p>
+                      <div class="about">
+                        <h2>Mary Collin</h2>
+                        <h4>Lorem Ipsum</h4>
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="single-item">
-                  <div class="row">
-                    <div class="col-md-5">
-                      <div class="profile">
-                        <div class="img-area">
-                          <img src="assets/img/testImg2.jpg" alt="">
-                        </div>
-                        <div class="about">
-                          <h2>Martin Willson</h2>
-                          <h4>Lorem Ipsum</h4>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="content">
-                        <p><span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor, sit amet consectetur 
-                          adipisicing elit. Ratione officiis placeat, maxime animi rerum laboriosam, perferendis 
-                          quis nulla omnis ipsa aliquid inventore minima facilis minus.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="single-item">
-                  <div class="row">
-                    <div class="col-md-5">
-                      <div class="profile">
-                        <div class="img-area">
-                          <img src="assets/img/testImg3.jpg" alt="">
-                        </div>
-                        <div class="about">
-                          <h2>Ava Smith</h2>
-                          <h4>Lorem Ipsum</h4>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="content">
-                        <p><span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor, sit amet consectetur 
-                          adipisicing elit. Ratione officiis placeat, maxime animi rerum laboriosam, perferendis 
-                          quis nulla omnis ipsa aliquid inventore minima facilis minus.</p>
-                      </div>
+                  <div class="col-md-6">
+                    <div class="content">
+                      <p><span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit. Ratione officiis placeat, maxime animi rerum laboriosam, perferendis
+                        quis nulla omnis ipsa aliquid inventore minima facilis minus.</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            <div class="carousel-item">
+              <div class="single-item">
+                <div class="row">
+                  <div class="col-md-5">
+                    <div class="profile">
+                      <div class="img-area">
+                        <img src="assets/img/testImg2.jpg" alt="">
+                      </div>
+                      <div class="about">
+                        <h2>Martin Willson</h2>
+                        <h4>Lorem Ipsum</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="content">
+                      <p><span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit. Ratione officiis placeat, maxime animi rerum laboriosam, perferendis
+                        quis nulla omnis ipsa aliquid inventore minima facilis minus.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="single-item">
+                <div class="row">
+                  <div class="col-md-5">
+                    <div class="profile">
+                      <div class="img-area">
+                        <img src="assets/img/testImg3.jpg" alt="">
+                      </div>
+                      <div class="about">
+                        <h2>Ava Smith</h2>
+                        <h4>Lorem Ipsum</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="content">
+                      <p><span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit. Ratione officiis placeat, maxime animi rerum laboriosam, perferendis
+                        quis nulla omnis ipsa aliquid inventore minima facilis minus.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>  
-      </section>
-      
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
 
-      <!--==================== CONTACT ME ====================-->
+
+    <!--==================== CONTACT ME ====================-->
+    <section id="contact-form">
       <div class="contact-me">
         <h1 class="contact1">Contact Me</h1>
         <section class="contact section" id="contact">
           <form action="https://formsubmit.co/sharmasahil2468@gmail.com" method="POST">
-            <input type="hidden" name="_subject" value="New Query Arrived" />
-            <input name="name" type="text" class="feedback-input" placeholder="Name" required />
-            <input type="hidden" name="_next" value="http://127.0.0.1:5500/thankyou.html" />
-            <input name="email" type="text" class="feedback-input" placeholder="Email" required />
-            <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-            <input type="submit" value="SUBMIT" />
-          </form>
-        </section>
+          <input type="hidden" name="_subject" value="New Query Arrived" />
+          <input name="name" type="text" class="feedback-input" placeholder="Name" required />
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/thankyou.html" />
+          <input name="email" type="text" class="feedback-input" placeholder="Email" required />
+          <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+          <input type="submit" value="SUBMIT" />
+        </form>
+        
+            </section>
+      </section>
+    </div>
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer>
+    <div class="footer-container">
+      <ul>
+        <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fab fa-dribbble" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.instagram.com/mr.devtayade"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+        </li>
+        <li><a href="#"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fab fa-behance" aria-hidden="true"></i></a></li>
+
+      </ul>
+      <div class="copyrights">
+        <h2 class="courtesy">Made with <span style="color:#e63333;">❤</span> by <span class="team-name">Devendra</span>
+        </h2>
+        <p class="copyright-statement">&copy; 2022 Devendra Portfolio All Rights reserved</p>
       </div>
-    </main>
+    </div>
+  </footer>
 
-    <!--==================== FOOTER ====================-->
-    <footer>
-        <div class="footer-container">
-            <ul>
-                <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fab fa-dribbble" aria-hidden="true"></i></a></li>
-                <li><a href="https://www.instagram.com/mr.devtayade"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fab fa-github" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fab fa-behance" aria-hidden="true"></i></a></li>
-                
-            </ul>
-            <h2 class="courtesy">Made with <span style="color:#e63333;">❤</span> by <span class="team-name">Devendra</span></h2>
-            <p class="copyright">&copy; 2022 Devendra Portfolio All Rights reserved</p>
-        </div>
-    </footer>
+  <!--==================== SCROLL TOP ====================-->
+  <script src="assets\js\navbar.js" />
 
-    <!--==================== SCROLL TOP ====================-->
-    <script src="assets\js\navbar.js" />
+  <!--==================== SWIPER JS ====================-->
 
-    <!--==================== SWIPER JS ====================-->
-    
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" />
-    // <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"/>    
-    
-    <!--==================== MAIN JS ====================-->
-    <script>
-      window.onload = function () {
-        if (window.jQuery) {
-          // jQuery is loaded
-          alert("Yeah!");
-        } else {
-          // jQuery is not loaded
-          alert("Doesn't Work");
-        }
-      };
-    </script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" />
+  //
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" />
+
+  <!--==================== MAIN JS ====================-->
+  <script>
+    window.onload = function () {
+      if (window.jQuery) {
+        // jQuery is loaded
+        alert("Yeah!");
+      } else {
+        // jQuery is not loaded
+        alert("Doesn't Work");
+      }
+    };
+  </script>
+</body>
+
 </html>

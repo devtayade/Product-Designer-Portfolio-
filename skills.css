@@ -1,25 +1,32 @@
-.skills {
+#skills , .card-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: fit-content;
+    background-color: #2c2c2c;
+    width: 100%;
+    border-radius: 25px;
+    margin: 3rem 0 3rem 0;
 }
 
-.skills h1 {
-    margin-bottom: 40px;
+.skills h1{
+    /* margin-bottom: 40px; */
+    color: white;
 }
 
 .skills .container {
-    position: relative;
-    max-width: 1130px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 40px;
+    border-radius: 50px;
+    padding: 3rem;
 }
 
-.container .card {
+
+#skills .container .card {
     position: relative;
     width: 200px;
     height: 200px;
@@ -30,8 +37,9 @@
     align-items: center;
     border: 2px solid #000;
     border-radius: 50%;
-    box-shadow: 3px 3px 7px #000, -3px -3px 7px #000;
+    box-shadow: 3px 3px 20px #121212, -3px -3px 20px #121212;
 }
+
 
 .container .card .percent {
     position: relative;
