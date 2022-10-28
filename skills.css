@@ -145,3 +145,18 @@
     text-transform: uppercase;
     color: #fff;
 }
+@media screen and (max-width: 1000px) {
+  #skills {
+    
+    width: 100%;
+    margin-top: 200px;
+  }
+  div >.container>.card {
+    position: relative;
+    width: 50%;
+    height: 50%;
+  }
+  .main {
+    max-width: 100%;
+}
+  }

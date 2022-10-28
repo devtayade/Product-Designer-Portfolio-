@@ -738,5 +738,17 @@ footer img {
 /* For small devices */
 
 /* For medium devices */
+@media screen and (max-width: 1000px) {
+  .heading-wrapper{
+    display: none;
+  }
+  #profile{
+    flex-direction: column;
+  }
+  #discription {
+    width: 402px;
+    padding: 1rem;
+}
 
+}
 /* For large devices */
