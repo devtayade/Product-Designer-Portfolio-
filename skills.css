@@ -145,3 +145,10 @@
     text-transform: uppercase;
     color: #fff;
 }
+
+@media screen and (min-width: 350px) and (max-width: 700px) {
+    #skills, #Achievements{
+        margin: 1rem 0;
+      }
+     
+}

@@ -1,4 +1,4 @@
-.card-container{
+.card-container {
     background-color: #d3d3d3;
     padding: 3rem;
 }
@@ -15,13 +15,14 @@
     align-items: center;
     flex-wrap: wrap;
 }
-  
-.card-container .container{
+
+.card-container .container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 3rem;
 }
+
 .card-container .container .card {
     position: relative;
     width: 350px;
@@ -33,11 +34,11 @@
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
     transition: 0.5s;
 }
-  
+
 .card-container .container .card:hover {
     transform: scale(1.08);
 }
-  
+
 .card-container .container .card .circle {
     position: absolute;
     width: 100%;
@@ -46,14 +47,14 @@
     clip-path: circle(180px at center 0);
     text-align: center;
 }
-  
+
 .card-container .container .card .circle h3 {
     color: #fff;
     text-align: center;
     font-size: 1.2em;
     padding: 60px 0;
 }
-  
+
 .card-container .container .card .content {
     position: absolute;
     width: 100%;
@@ -63,12 +64,12 @@
     font-size: 18px;
     font-weight: 600;
 }
-  
+
 .card-container .container .card .content .features {
     color: #666;
-    margin-bottom: 8px;
+    margin: 8px;
 }
-  
+
 .card-container .container .card .content a {
     position: relative;
     display: inline-block;
@@ -79,13 +80,40 @@
     text-decoration: none;
     margin-top: 20px;
 }
-  
+
 .card-container .container .card:nth-child(1) .circle,
 .card-container .container .card:nth-child(1) .content a {
     background: #ffaf00;
 }
-  
+
 .card-container .container .card:nth-child(2) .circle,
 .card-container .container .card:nth-child(2) .content a {
     background: #da2268;
+}
+
+@media screen and (min-width: 350px) and (max-width: 700px) {
+    .card-container {
+        padding: 3rem 0;
+    }
+
+    .card-container .container {
+        margin: 1rem;
+        justify-content: space-evenly;
+    }
+
+    .card-container .container .card{
+       width: 70%;
+       height: 300px;
+       /* height: 70%; */
+       margin: 1rem 0;
+    }
+
+    .card-container .container .card .circle{
+        clip-path: circle(140px at center 0);
+    }
+
+    .card-container .container .card .content .features{
+        margin: 0px;
+        font-size: 15px;
+    }
 }
