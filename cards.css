@@ -1,6 +1,8 @@
 .card-container{
     background-color: #d3d3d3;
     padding: 3rem;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
 }
 
 .card-container h1 {
@@ -26,7 +28,7 @@
     position: relative;
     width: 350px;
     height: 400px;
-    background: #fff;
+    background: rgb(240 240 240);
     margin: 20px;
     border-radius: 20px;
     overflow: hidden;
@@ -48,7 +50,7 @@
 }
   
 .card-container .container .card .circle h3 {
-    color: #fff;
+    color: rgb(240 240 240);
     text-align: center;
     font-size: 1.2em;
     padding: 60px 0;
@@ -74,7 +76,7 @@
     display: inline-block;
     padding: 10px 20px;
     background: #000;
-    color: #fff;
+    color: rgb(240 240 240);
     border-radius: 40px;
     text-decoration: none;
     margin-top: 20px;
@@ -82,10 +84,10 @@
   
 .card-container .container .card:nth-child(1) .circle,
 .card-container .container .card:nth-child(1) .content a {
-    background: #ffaf00;
+    background: var(--main-color);
 }
   
 .card-container .container .card:nth-child(2) .circle,
 .card-container .container .card:nth-child(2) .content a {
-    background: #da2268;
-}
+    background: var(--main-color);
+}   

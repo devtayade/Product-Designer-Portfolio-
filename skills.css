@@ -8,6 +8,7 @@
     width: 100%;
     border-radius: 25px;
     margin: 3rem 0 3rem 0;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
 }
 
 .skills h1{
@@ -126,14 +127,14 @@
     align-items: center;
     margin: 0;
     margin-top: 3px;
-    color: #fff;
+    color: rgb(240 240 240);
     font-weight: 700;
     font-size: 2.5em;
 }
 
 .number h2 span {
     font-weight: 300;
-    color: #fff;
+    color: rgb(240 240 240);
     font-size: 0.5em;
 }
 
@@ -143,5 +144,5 @@
     letter-spacing: 2px;
     margin: 0;
     text-transform: uppercase;
-    color: #fff;
+    color: rgb(240 240 240);
 }

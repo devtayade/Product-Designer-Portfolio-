@@ -31,9 +31,9 @@ function test(){
 }
 
 $(document).ready(function(){
-    console.log("uytre");
-	setTimeout(function(){ test();
-    console/log("uiytrew"); },800);
+	setTimeout(function(){ 
+		test();
+	},800);
 });
 $(window).on('resize', function(){
 	setTimeout(function(){ test(); }, 500);

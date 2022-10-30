@@ -25,6 +25,56 @@
   <script src="jquery-3.6.1.min.js"></script>
 
   <title>Devendra Tayade | Portfolio</title>
+  <style>
+    .dark {
+      background-color: rgba(0, 0, 0, 0.925) !important;
+      color: #fff;
+    }
+
+    .header_wrapper_dark {
+      background-color: rgb(187 185 185);
+    }
+
+    .div_dark_mode {
+      box-shadow: 0 15px 25px rgb(255 255 255 / 20%);
+    }
+
+    .dark_achievement,
+    .dark_achievement>* {
+      background-color: rgb(44, 44, 44);
+      color: #fff;
+      border: none;
+    }
+
+    .dark_card {
+      background-color: rgb(44, 44, 44) !important;
+      color: #fff;
+    }
+
+    .nav_dark {
+      background-color: var(--main-color) !important;
+      color: #fff !important;
+    }
+
+    .proj_container .card {
+      background-color: rgb(44, 44, 44) !important;
+      color: #fff;
+    }
+
+    .dark_text_color {
+      color: #fff;
+    }
+
+    .dark_single_item {
+      background: rgb(44, 44, 44);
+      color: #fff;
+      padding: 15px;
+      margin: 50px 15px;
+      border-radius: 50px 0 50px 0;
+      border-top: 7px solid rgb(224 17 95);
+      border-bottom: 7px solid rgb(224 17 95);
+    }
+  </style>
 </head>
 
 <body>
@@ -86,42 +136,40 @@
 
       <div class="heading-wrapper">
 
-        <a href="https://www.linkedin.com/in/devtayade/"><img src="assets/icons8-linkedin-48.png" alt="LinkedIn"
-            height="30" width="30"></a>
-        <a href="https://dribbble.com/devtayade"><img src="assets/icons8-dribbble-48.png" alt="dribbble" height="30"
-            width="30"></a>
-        <a href="https://github.com/devtayade"><img src="assets/icons8-github-48.png" alt="Github" height="30"
-            width="30"></a>
-        <a href="https://www.behance.net/devendratayade"><img src="assets/icons8-behance-48.png" alt="Behance"
-            height="30" width="30"></a>
+        <a href="https://www.linkedin.com/in/devtayade/"><i class="fab fa-linkedin icon" aria-hidden="true"></i></a>
+        <a href="https://dribbble.com/devtayade"><i class="fab fa-dribbble icon" aria-hidden="true"></i></a>
+        <a href="https://github.com/devtayade"><i class="fab fa-github icon" aria-hidden="true"></i></a>
+        <a href="https://www.behance.net/devendratayade"><i class="fab fa-behance icon" aria-hidden="true"></i></a>
 
       </div>
 
       <!--==================== ABOUT ====================-->
-      <div id="heading">
-        <p>Hi, I'm</p>
-        <h1><span class="heading">Devendra.👋</span></h1>
-        <span style="color:#da2268">• I am a Designer who codes!</span>
-      </div>
-
-      <div class="about-section" id="about">
-        <div id="discription">
-          <p>
-            I speak code and my blood group is C++. <br />I fell in love with computers when I first
-            pressed a key on the keyboard in 2016. Seeking a fresher role to enhance and explore
-            my technical knowledge while studying at <b>Savitribai Phule Pune University</b> and I am persuing a B.E
-            degree
-            from BSIOTR, Pune. I am working and learning on multiple Android/iOS Projects and
-            Apps involving C++, C# and Java although I am from an electronics and telecommunication engineering branch! I
-            am
-            very passionate about Application design & development, databases and
-            open-source contributions. I am exploring expertise in full implementation of various projects including
-            UI/UX,
-            Development and testing. <br />
-            Technologies I work with: <b>Android, Java, Flutter,
-              Databases, Kotlin, Google Cloud, Firebase and Networks.</b>
-          </p>
+        <div id="heading">
+          <p>Hi, I'm</p>
+          <h1><span class="heading">Devendra.👋</span></h1>
+          <span style="color:var(--main-color)">• I am a Designer who codes!</span>
         </div>
+
+        <div class="about-section" id="about">
+          <div id="discription">
+            <p>
+              I speak code and my blood group is C++. <br />I fell in love with computers when I first
+              pressed a key on the keyboard in 2016. Seeking a fresher role to enhance and explore
+              my technical knowledge while studying at <b>Savitribai Phule Pune University</b> and I am persuing a B.E
+              degree
+              from BSIOTR, Pune. I am working and learning on multiple Android/iOS Projects and
+              Apps involving C++, C# and Java although I am from an electronics and telecommunication engineering
+              branch!
+              I
+              am
+              very passionate about Application design & development, databases and
+              open-source contributions. I am exploring expertise in full implementation of various projects including
+              UI/UX,
+              Development and testing. <br />
+              Technologies I work with: <b>Android, Java, Flutter,
+                Databases, Kotlin, Google Cloud, Firebase and Networks.</b>
+            </p>
+          </div>
       </div>
       <!-- <div class="illustration">
         <img src="assets/139-removebg-preview.png" alt="illustration" style="float: right;">
@@ -130,7 +178,7 @@
 
 
     <!--==================== SKILLS ====================-->
-    <section class="skills section" id="skills">
+    <section class="skills section mt-15" id="skills">
       <h1>Skills</h1>
       <div class="container">
         <div class="card">
@@ -223,7 +271,7 @@
     <section class="card-container" id="Achievements">
       <h1>Achievements</h1>
       <div class="container">
-        <div class="card">
+        <div class="card achievement_card">
           <div class="circle">
             <h3>Achievements</h3>
           </div>
@@ -235,7 +283,7 @@
           </div>
         </div>
 
-        <div class="card">
+        <div class="card achievement_card">
           <div class="circle">
             <h3>Services</h3>
           </div>
@@ -250,7 +298,7 @@
     </section>
     <!--==================== MY PROJECTS ====================-->
 
-    <section class="project section" id="project">
+    <section class="card-container project" id="project">
 
       <h1>Project</h1>
       <div class="proj-container">
@@ -291,7 +339,7 @@
     <!--==================== TESTIMONIAL ====================-->
 
     <section class="testimonial section" id="testimonial">
-      <h1>Testimonials</h1>
+      <h1 class="testimonial_heading">Testimonials</h1>
       <div class="test-content">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
@@ -389,16 +437,16 @@
         <h1 class="contact1">Contact Me</h1>
         <section class="contact section" id="contact">
           <form action="https://formsubmit.co/sharmasahil2468@gmail.com" method="POST">
-          <input type="hidden" name="_subject" value="New Query Arrived" />
-          <input name="name" type="text" class="feedback-input" placeholder="Name" required />
-          <input type="hidden" name="_next" value="http://127.0.0.1:5500/thankyou.html" />
-          <input name="email" type="text" class="feedback-input" placeholder="Email" required />
-          <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-          <input type="submit" value="SUBMIT" />
-        </form>
-        
-            </section>
-      </section>
+            <input type="hidden" name="_subject" value="New Query Arrived" />
+            <input name="name" type="text" class="feedback-input" placeholder="Name" required />
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/thankyou.html" />
+            <input name="email" type="text" class="feedback-input" placeholder="Email" required />
+            <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+            <input type="submit" value="SUBMIT" />
+          </form>
+
+        </section>
+    </section>
     </div>
   </main>
 
@@ -423,27 +471,60 @@
   </footer>
 
   <!--==================== SCROLL TOP ====================-->
-  <script src="assets\js\navbar.js" />
+  <script src="assets\js\navbar.js"></script>
 
   <!--==================== SWIPER JS ====================-->
 
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" />
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   //
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 
   <!--==================== MAIN JS ====================-->
   <script>
-    window.onload = function () {
-      if (window.jQuery) {
-        // jQuery is loaded
-        alert("Yeah!");
-      } else {
-        // jQuery is not loaded
-        alert("Doesn't Work");
-      }
-    };
+    let dark_mode_toggle = document.querySelector('#dark-mode-toggle');
+    let body = document.querySelector('body');
+    let achievements = document.querySelector('#Achievements');
+    let about = document.querySelector('#about');
+    let card = document.getElementsByClassName('achievement_card');
+    let navbar = document.querySelector('.navbar');
+    let footer = document.querySelector('.footer-container');
+    let header_wrapper = document.querySelector('.heading-wrapper');
+    let project = document.querySelector('.project');
+    let single_item = document.getElementsByClassName('single-item');
+    let testimonial = document.querySelector('.testimonial_heading');
+    let contact_me = document.querySelector('.contact-me');
+    let heading = document.querySelector('.heading');
+    let h2 = document.getElementsByTagName('h2');
+    let h4 = document.getElementsByTagName('h4');
+    dark_mode_toggle.addEventListener('click', function () {
+      document.body.classList.toggle('dark');
+      header_wrapper.classList.toggle('header_wrapper_dark');
+      header_wrapper.style.transition = "all 0.5s ease";
+      achievements.classList.toggle('dark_achievement');
+      about.classList.toggle('div_dark_mode');
+      navbar.classList.toggle('nav_dark');
+      footer.classList.toggle('nav_dark');
+      project.classList.toggle('dark_achievement');
+      testimonial.classList.toggle('dark_text_color');
+      contact_me.classList.toggle('dark_achievement');
+      heading.classList.toggle('dark_text_color');
+      Array.from(card).forEach(element => {
+        element.classList.toggle('dark_card');
+      });
+      Array.from(single_item).forEach(element => {
+        element.classList.toggle('dark_card');
+      });
+      Array.from(h2).forEach(element => {
+        element.classList.toggle('dark_text_color');
+      });
+      Array.from(h4).forEach(element => {
+        element.classList.toggle('dark_text_color');
+      });
+    });
+
+
   </script>
 </body>
 
